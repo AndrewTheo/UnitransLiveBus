@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html, body { height: 100%; overflow: hidden}
+
+
+
+.selectF {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  border-bottom: 5px solid black;
+  background: white;
+  background-image: none;
+}
+/* Custom Select */
+
+.special-card {
+  /* create a custom class so you
+     do not run into specificity issues
+     against bootstraps styles
+     which tends to work better than using !important
+     (future you will thank you later)*/
+
+  background-color: rgba(245, 245, 245, 1);
+  opacity: .4;
+}
+
+.tester {
+  background-color: rgba(245, 245, 245,1);
+  opacity: 1;
+}
